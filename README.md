@@ -1,5 +1,5 @@
 # Game Of Life
-John Conway's Game of Life, now in Love2D! <br/>
+John Conway's Game of Life, now in [Love2D](https://love2d.org/)! <br/>
 
 ### Cellular Automata and the Game of Life
 Cellular automata have been around for a while. Essentially, they're state machines plotted out on grids where each cell is determined to be live or dead depending on the state of cells around it. The Game of Life is no exception. Devised by John Conway, the Game of Life is a cellular automaton operating on three major rules: <br/>
@@ -19,7 +19,10 @@ NOTE: This sim requires Love2D to run. <br/>
 Once you're done with your configurations, move the contents of `LUA` to a zipped folder and change the file extension to `*.love`. Love2D will take care of the rest. <br/>
 
 ##### Running Examples
-Some examples have been provided for your convenience, already with the `.love` extension enabled. To view them, go to `LUA/examples` and click on them. Assuming your laptop is equipped with Love2D, they should run perfectly. In case of any bugs, report them under the issues tag. 
+Some examples have been provided for your convenience, already with the `.love` extension enabled. To view them, go to `LUA/examples` and click on them. Assuming your laptop is equipped with Love2D, they should run perfectly. In case of any bugs, report them under the issues tag.  
+  
+##### An Alternative Approach
+A release has been published containing the basic grid [here](https://github.com/hrishitchaudhuri/GameOfLife/releases/tag/v0.1-alpha). This does not allow for changes in bounding box sizes though; to enable greater control, we recommend cloning this repository and running it on the Love2D engine.  
 
 ### Credits
 File `classic.lua` taken from [rxi](https://github.com/rxi/classic)
