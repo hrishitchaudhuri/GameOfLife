@@ -22,7 +22,8 @@ Once you're done with your configurations, move the contents of `LUA` to a zippe
 Some examples have been provided for your convenience, already with the `.love` extension enabled. To view them, go to `LUA/examples` and click on them. Assuming your laptop is equipped with Love2D, they should run perfectly. In case of any bugs, report them under the issues tag.  
   
 ##### An Alternative Approach
-A release has been published containing the basic grid [here](https://github.com/hrishitchaudhuri/GameOfLife/releases/tag/v0.1-alpha). This does not allow for changes in bounding box sizes though; to enable greater control, we recommend cloning this repository and running it on the Love2D engine.  
+A release has been published containing the basic grid [here](https://github.com/hrishitchaudhuri/GameOfLife/releases/tag/v0.1-alpha), supported for Windows 64-bit operating systems. Run the executable titled `LifeGame.exe`.  
+NOTE: This does not allow for changes in bounding box sizes though; to enable greater control, we recommend cloning this repository and running it on the Love2D engine.  
 
 ### Credits
 File `classic.lua` taken from [rxi](https://github.com/rxi/classic)
